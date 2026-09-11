@@ -10,7 +10,4 @@ Arduino Uno based Smart Parking System
 
 - 
 ## Project Description
-This project is an Arduino Uno based Smart Parking System.
-IR sensors are used to detect the presence of vehicles and
-monitor parking slots. The servo motor controls the parking
-gate, while the 16×2 LCD displays the parking status.
+The project is a Smart Parking System using Arduino Uno. We have used IR sensors to detect the presence of cars, servo motors to control the parking gate, and a 16×2 LCD to display the parking status. When a car is detected, the IR sensor sends a signal to the Arduino. The Arduino checks the availability of parking spaces and controls the servo motor accordingly. The LCD displays the current parking information. Toy cars are used to demonstrate the working of the system
